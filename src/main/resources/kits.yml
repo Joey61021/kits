@@ -1,0 +1,188 @@
+classic:
+  name: "&aClassic"
+  permission: "kits.classic"
+  cooldown: 60
+  content:
+    boots:
+      ==: org.bukkit.inventory.ItemStack
+      type: IRON_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §aClassic §fBoots
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+        ItemFlags: !!set
+          HIDE_UNBREAKABLE: null
+    leggings:
+      ==: org.bukkit.inventory.ItemStack
+      type: IRON_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §aClassic §fLeggings
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+        ItemFlags: !!set
+          HIDE_UNBREAKABLE: null
+    chestplate:
+      ==: org.bukkit.inventory.ItemStack
+      type: IRON_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §aClassic §fChestplate
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+        ItemFlags: !!set
+          HIDE_UNBREAKABLE: null
+    helmet:
+      ==: org.bukkit.inventory.ItemStack
+      type: IRON_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §aClassic §fHelmet
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+        ItemFlags: !!set
+          HIDE_UNBREAKABLE: null
+    '0':
+      ==: org.bukkit.inventory.ItemStack
+      type: IRON_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §aClassic §fSword
+        ItemFlags: !!set
+          HIDE_UNBREAKABLE: null
+archer:
+  name: "&eArcher"
+  permission: "kits.archer"
+  cooldown: 60
+  content:
+    boots:
+      ==: org.bukkit.inventory.ItemStack
+      type: CHAINMAIL_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §eArcher §fBoots
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+        ItemFlags: !!set
+          HIDE_UNBREAKABLE: null
+    leggings:
+      ==: org.bukkit.inventory.ItemStack
+      type: LEATHER_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        display-name: §eArcher §fLeggings
+        enchants:
+          PROTECTION_PROJECTILE: 1
+          PROTECTION_ENVIRONMENTAL: 1
+        ItemFlags: !!set
+          HIDE_UNBREAKABLE: null
+    chestplate:
+      ==: org.bukkit.inventory.ItemStack
+      type: CHAINMAIL_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §eArcher §fChestplate
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+        ItemFlags: !!set
+          HIDE_UNBREAKABLE: null
+    helmet:
+      ==: org.bukkit.inventory.ItemStack
+      type: CHAINMAIL_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §eArcher §fHelmet
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+        ItemFlags: !!set
+          HIDE_UNBREAKABLE: null
+    '0':
+      ==: org.bukkit.inventory.ItemStack
+      type: STONE_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §eArcher §fSword
+        enchants:
+          DAMAGE_ALL: 1
+        ItemFlags: !!set
+          HIDE_UNBREAKABLE: null
+    '1':
+      ==: org.bukkit.inventory.ItemStack
+      type: BOW
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §eArcher §fBow
+        enchants:
+          ARROW_DAMAGE: 1
+        ItemFlags: !!set
+          HIDE_UNBREAKABLE: null
+    '9':
+      ==: org.bukkit.inventory.ItemStack
+      type: ARROW
+      amount: 32
+tank:
+  name: "&bTank"
+  permission: "kits.tank"
+  cooldown: 60
+  content:
+    boots:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §bTank §fBoots
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+        ItemFlags: !!set
+          HIDE_UNBREAKABLE: null
+    leggings:
+      ==: org.bukkit.inventory.ItemStack
+      type: IRON_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §bTank §fLeggings
+        ItemFlags: !!set
+          HIDE_UNBREAKABLE: null
+    chestplate:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §bTank §fChestplate
+        ItemFlags: !!set
+          HIDE_UNBREAKABLE: null
+    helmet:
+      ==: org.bukkit.inventory.ItemStack
+      type: IRON_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §bTank §fHelmet
+        ItemFlags: !!set
+          HIDE_UNBREAKABLE: null
+    '0':
+      ==: org.bukkit.inventory.ItemStack
+      type: STONE_AXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §bTank §fAxe
+        enchants:
+          DAMAGE_ALL: 1
+        ItemFlags: !!set
+          HIDE_UNBREAKABLE: null

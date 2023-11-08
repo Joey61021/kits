@@ -1,0 +1,11 @@
+Generic:
+  No-Console: '&cSorry, but this command cannot be used in console!'
+Commands:
+  ClaimKit:
+    Clear-Inventory: true  # Reset inventory on kit claim?
+    Messages:
+      Selected: '&fYou have selected the %kit% &fkit!'
+      No-Permission: '&cYou are missing permissions!'
+      Cooldown: '&cYou can collect the set in %time%!'
+      Enter-Kit: '&cPlease enter a kit!'
+      Not-A-Kit: '&cSorry, but "%input%" is not a kit type!'
