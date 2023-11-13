@@ -3,8 +3,6 @@ main: com.kits.plugin.Main
 api-version: 1.18
 version: ${project.version}
 
-softdepend: [LuckPerms, Vault, PlaceholderAPI, NametagEdit, NBTAPI]
-
 commands:
   claimkit:
     aliases: [kits, kit]
